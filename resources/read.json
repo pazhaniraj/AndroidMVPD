@@ -1,0 +1,312 @@
+{
+    "mvpds": [
+        {
+            "id": "att",
+            "name": "AT&T U-verse",
+            "devices": 12543,
+            "accounts": {
+                "stage": [
+                    {
+                        "username": "attsta42@att.net",
+                        "password": "testing42",
+                        "authz-resources": [
+                            "fs1",
+                            "fs2",
+                            "fbc-fox",
+                            "fcs"
+                        ],
+                        "no-authz-resources": [
+                            "fspl"
+                        ],
+                        "zipcode": [
+                            91911
+                        ]
+                    },
+                    {
+                        "username": "qay1307_124000522@att.net",
+                        "password": "test1ng",
+                        "authz-resources": [
+                            "none"
+                        ],
+                        "not-authz-resources": [
+                            "none"
+                        ],
+                        "zipcode": [
+                            null
+                        ]
+                    },
+                    {
+                        "username": "qaysp3022@att.net",
+                        "password": "Testing123",
+                        "authz-resources": [
+                            "fssd",
+                            "fs1",
+                            "fbc-fox",
+                            "fs2",
+                            "fsa",
+                            "fswi",
+                            "fsmw",
+                            "foxdep",
+                            "fsd",
+                            "fsw",
+                            "fspt",
+                            "spso",
+                            "sunsports",
+                            "fsso",
+                            "fsfl",
+                            "fss",
+                            "fsoh",
+                            "fcs"
+                        ],
+                        "not-authz-resources": [
+                            "fsno",
+                            "fspl"
+                        ],
+                        "zipcode": [
+                            30005
+                        ]
+                    },
+                    {
+                        "username": "Qay2013ls800d27323@att.net",
+                        "password": "Testing123",
+                        "authz-resources": [
+                            "all"
+                        ],
+                        "not-authz-resources": [
+                            "none"
+                        ],
+                        "zipcode": [
+                            33132
+                        ],
+                        "parental-controls": "on",
+                        "max-concurrent_users": 5
+                    }
+                ],
+                "prod": [
+                    {
+                        "username": "qay1210_118886008@att.net",
+                        "password": "test1ng",
+                        "authz-resources": [
+                            "none"
+                        ],
+                        "not-authz-resources": [
+                            "none"
+                        ],
+                        "zipcode": [
+                            null
+                        ]
+                    },
+                    {
+                        "username": "foxsdktest@att.net",
+                        "password": "testing1234",
+                        "authz-resources": [
+                            "fs1",
+                            "fs2",
+                            "fcs",
+                            "foxdep",
+                            "FSA",
+                            "FSD",
+                            "FSFL",
+                            "FSMW",
+                            "FSOH",
+                            "FSSD",
+                            "FSSO",
+                            "FSS",
+                            "FSW",
+                            "FSWI",
+                            "FSPT",
+                            "SPSO",
+                            "SUNSPORTS"
+                        ],
+                        "not-authz-resources": [
+                            "none"
+                        ],
+                        "zipcode": [
+                            75203,
+                            75204,
+                            75205,
+                            75208,
+                            75209,
+                            75210,
+                            75211,
+                            75212,
+                            75214,
+                            75201,
+                            75202,
+                            75206,
+                            75207,
+                            75215,
+                            75216,
+                            75217,
+                            75218,
+                            75222,
+                            75223,
+                            75224,
+                            75225,
+                            75230,
+                            75231,
+                            75232,
+                            75233,
+                            75236,
+                            75237,
+                            75238,
+                            75240,
+                            75246,
+                            75251,
+                            75252,
+                            75253,
+                            75219,
+                            75220,
+                            75221,
+                            75226,
+                            75227,
+                            75228,
+                            75229,
+                            75234,
+                            75235,
+                            75241,
+                            75242,
+                            75243,
+                            75244,
+                            75247,
+                            75248,
+                            75249,
+                            75250,
+                            75254,
+                            75260,
+                            75261,
+                            75265,
+                            75266,
+                            75267,
+                            75270,
+                            75275,
+                            75284,
+                            75285,
+                            75262,
+                            75263,
+                            75264,
+                            75277,
+                            75283,
+                            75287,
+                            75301,
+                            75315,
+                            75320,
+                            75326,
+                            75355,
+                            75356,
+                            75357,
+                            75358,
+                            75370,
+                            75371,
+                            75372,
+                            75373,
+                            75381,
+                            75382,
+                            75389,
+                            75390,
+                            75393,
+                            75394,
+                            75395,
+                            75303,
+                            75312,
+                            75313,
+                            75336,
+                            75339,
+                            75342,
+                            75354,
+                            75359,
+                            75360,
+                            75367,
+                            75368,
+                            75374,
+                            75376,
+                            75378,
+                            75379,
+                            75380,
+                            75391,
+                            75392,
+                            75397,
+                            75398
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "firstName": "brighthouse",
+            "name": "Bright House Networks",
+            "devices": 8447,
+            "accounts": {
+                "stage": [
+                    {
+                        "username": "qaresbak10",
+                        "password": "password1",
+                        "authz-resources": [
+                            "fs1"
+                        ],
+                        "no-authz-resources": [
+                            "none"
+                        ],
+                        "zipcode": [
+                            null
+                        ]
+                    }
+                ],
+                "prod": [
+                    {
+                        "username": "bhntest",
+                        "password": "password1",
+                        "authz-resources": [
+                            "fs1"
+                        ],
+                        "no-authz-resources": [
+                            "fs2",
+                            "fcs",
+                            "fspl"
+                        ],
+                        "zipcode": [
+                            null
+                        ]
+                    },
+                    {
+                        "username": "indyis",
+                        "password": "myisisn1",
+                        "authz-resources": [
+                            "fs1",
+                            "fs2",
+                            "fcs",
+                            "fspl"
+                        ],
+                        "no-authz-resources": [
+                            "none"
+                        ],
+                        "zipcode": [
+                            91911
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "mvpdConfigs": {
+        "qa-config": "http://qa-data.foxsports.com/fsdms-static/configuration",
+        "stg-config": "http://fs.staging-data.foxsports.com/fsdms-static/configuration",
+        "prod-config": "http://ts.data.foxsports.com/fsdms-static/configuration"
+    },
+    "deviceMasks": {
+        "iPhone": 1,
+        "iPad": 2,
+        "iPod": 3,
+        "androidPhone": 4,
+        "androidTab": 5,
+        "web": 6,
+        "winPhone": 7,
+        "win8.1": 8,
+        "roku": 9,
+        "xBox": 10,
+        "appleTV": 11,
+        "androidTV": 12,
+        "fireTV": 13,
+        "kindle": 14
+    }
+}
